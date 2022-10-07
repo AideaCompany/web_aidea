@@ -1,0 +1,18 @@
+.main_slogan {
+  width: 90%;
+  height: 1020px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid green;
+
+  > h1 {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid black;
+  }
+}
