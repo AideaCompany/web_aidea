@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
 import { Button } from 'antd'
+import { FC } from 'react'
+import { IProps } from './props.interface'
 
-const Layout: NextPage = () => {
+const Layout: FC<IProps> = ({ children }) => {
   return (
     <div className="main_layout">
       <div className="father">
@@ -14,6 +15,7 @@ const Layout: NextPage = () => {
           <Button>Contacto</Button>
         </div>
       </div>
+      {children}
     </div>
   )
 }
