@@ -21,23 +21,17 @@ const Aliados: FC<IProps> = () => {
     },
     {
       name: 'boton 6'
-    },
-    {
-      name: 'boton 7'
-    },
-    {
-      name: 'boton 8'
     }
   ]
   return (
-    <div className="main_aliados">
+    <div className="main_allies">
       <div className="tittle">
         <h1> Con quien trabajamos</h1>
-        <div className="buttons">
-          {buttons.map(button => (
-            <div className="daughter_button">{button.name}</div>
-          ))}
-        </div>
+      </div>
+      <div className="buttons">
+        {buttons.map(button => (
+          <div className="daughter_button">{button.name}</div>
+        ))}
       </div>
     </div>
   )

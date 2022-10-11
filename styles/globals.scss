@@ -22,5 +22,8 @@ a {
   width: 100%;
   height: auto;
   background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid green;
 }
