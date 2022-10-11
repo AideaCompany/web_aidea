@@ -23,18 +23,12 @@
     height: 810px;
     display: flex;
 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #f8f8f8;
-
     > h1 {
       height: 100px;
       display: flex;
       flex-direction: column;
       text-align: center;
-      font-size: 60px;
+      font-size: 65pt;
     }
   }
 }

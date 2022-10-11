@@ -42,6 +42,12 @@
 @media screen and (max-width: 1280px) {
   .main_layout {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main_layout {
+    width: 100%;
 
     .father {
       .father_buttons {
@@ -51,11 +57,14 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 768px) {
+  .main_layout {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  .main_layout {
+    width: 100%;
+  }
 }
