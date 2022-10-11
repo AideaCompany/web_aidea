@@ -5,6 +5,11 @@ const Slogan: FC<IProps> = () => {
   return (
     <div className="main_slogan">
       <h1> FRASE / SLOGAN</h1>
+      {/* <h1> FRASE / SLOGAN</h1>
+      <h1> FRASE / SLOGAN</h1>
+      <h1> FRASE / SLOGAN</h1>
+      <h1> FRASE / SLOGAN</h1>
+      <h1> FRASE / SLOGAN</h1> */}
     </div>
   )
 }

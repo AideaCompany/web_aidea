@@ -5,16 +5,20 @@ import { IProps } from './props.interface'
 const Projects: FC<IProps> = () => {
   const cards = [
     {
-      name: 'card 1'
+      name: 'card 1',
+      title: '  Titulo 1'
     },
     {
-      name: 'card 2'
+      name: 'card 2',
+      title: '  Titulo 2'
     },
     {
-      name: 'card 3'
+      name: 'card 3',
+      title: '  Titulo 3'
     },
     {
-      name: 'card 4'
+      name: 'card 4',
+      title: '  Titulo 4'
     }
   ]
 
@@ -24,9 +28,8 @@ const Projects: FC<IProps> = () => {
         <h1>Nuestros proyectos</h1>
       </div>
       <div className="project_cards">
-        import {Cards} from "./Projects/card";
         {cards.map(card => (
-          <div className="son_card">{card.name}</div>
+          <Cards>{card.name}</Cards>
         ))}
       </div>
     </div>

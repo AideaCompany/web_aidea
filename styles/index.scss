@@ -2,3 +2,33 @@
 @import './Layout.scss';
 @import './slogan.scss';
 @import './Projects.scss';
+@import './News.scss';
+@import './footer.scss';
+
+.main_container {
+  width: 100%;
+  height: auto;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+
+  // .container_slogan {
+  //   width: 100%;
+  //   height: auto;
+  //   margin-top: 2%;
+  // }
+
+  // .container_projects {
+  //   width: 100%;
+  //   height: auto;
+  //   margin-top: 2%;
+  // }
+  // .container_News {
+  //   width: 100%;
+  //   height: auto;
+  //   margin-top: 2%;
+  // }
+}

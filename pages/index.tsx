@@ -1,4 +1,6 @@
+import Footer from 'components/Footer'
 import Layout from 'components/Layout'
+import News from 'components/News'
 import Projects from 'components/Projects'
 import Slogan from 'components/Slogan/Index'
 import type { NextPage } from 'next'
@@ -8,8 +10,10 @@ const Home: NextPage = () => {
     <div className="main_container">
       <Layout>
         <>
-          <Slogan></Slogan>
-          <Projects></Projects>
+          <Slogan />
+          <Projects />
+          <News />
+          <Footer />
         </>
       </Layout>
       {/* <Layout children={<></>}/>    */}

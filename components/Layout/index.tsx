@@ -11,10 +11,10 @@ const Layout: FC<IProps> = ({ children }) => {
           <img src="logo.png" />
         </div>
         <div className="father_buttons">
-          <Button>Menu</Button>
-          <Button>Menu</Button>
-          <Button>Menu</Button>
-          <Button>Menu</Button>
+          <Button>Nosotros</Button>
+          <Button>Portafolio</Button>
+          <Button>Aliados</Button>
+          <Button>Noticias</Button>
           <Button>Contacto</Button>
         </div>
       </div>
