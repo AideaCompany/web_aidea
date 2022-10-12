@@ -4,6 +4,8 @@
 @import './Projects.scss';
 @import './News.scss';
 @import './footer.scss';
+@import './Allies.scss';
+@import './Topic.scss';
 
 .main_container {
   width: 100%;
@@ -13,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 
   // .container_slogan {
   //   width: 100%;

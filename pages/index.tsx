@@ -3,6 +3,8 @@ import Layout from 'components/Layout'
 import News from 'components/News'
 import Projects from 'components/Projects'
 import Slogan from 'components/Slogan/Index'
+import Aliados from 'components/Aliados'
+import Topic from 'components/Topic'
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
@@ -11,12 +13,13 @@ const Home: NextPage = () => {
       <Layout>
         <>
           <Slogan />
+          <Topic />
           <Projects />
           <News />
+          <Aliados />
           <Footer />
         </>
       </Layout>
-      {/* <Layout children={<></>}/>    */}
     </div>
   )
 }

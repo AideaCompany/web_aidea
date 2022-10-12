@@ -1,0 +1,263 @@
+@media screen and (min-width: 640px) {
+  .main_topic {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .description {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .tittle_description {
+        width: 40%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > h1 {
+          font-family: 'Objectivity';
+          font-size: 60pt;
+          line-height: 1em;
+        }
+      }
+      .text_description {
+        width: 60%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > p {
+          font-family: 'Objectivity';
+          font-size: 280pt;
+          line-height: 1em;
+        }
+      }
+    }
+    .buttons {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 35% 35%;
+      grid-template-rows: 40% 40%;
+      padding-left: 8%;
+      align-items: center;
+      justify-content: center;
+
+      padding-top: 5%;
+
+      .son_button {
+        border: 1px solid black;
+        width: 90%;
+        height: 90%;
+        border-radius: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .main_topic {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .description {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .tittle_description {
+        width: 60%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > h1 {
+          font-family: 'Objectivity';
+          font-size: 35pt;
+          line-height: 1em;
+          display: flex;
+          text-align: center;
+        }
+      }
+      .text_description {
+        width: 60%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5%;
+        > p {
+          font-family: 'Objectivity';
+          font-size: 10pt;
+          line-height: 1em;
+          display: flex;
+          text-align: center;
+        }
+      }
+    }
+    .buttons {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 35% 35%;
+      grid-template-rows: 40% 40%;
+      padding-left: 8%;
+      align-items: center;
+      justify-content: center;
+
+      padding-top: 5%;
+
+      .son_button {
+        border: 1px solid black;
+        width: 90%;
+        height: 90%;
+        border-radius: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main_topic {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .description {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .tittle_description {
+        width: 55%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > h1 {
+          font-family: 'Objectivity';
+          font-size: 35pt;
+          line-height: 0.9em;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+        }
+      }
+      .text_description {
+        width: 40%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > p {
+          font-family: 'Objectivity';
+          font-size: 10pt;
+          line-height: 1em;
+          padding-top: 25%;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+    .buttons {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 35% 35%;
+      grid-template-rows: 40% 40%;
+      padding-left: 8%;
+      align-items: center;
+      justify-content: center;
+
+      padding-top: 5%;
+
+      .son_button {
+        border: 1px solid black;
+        width: 90%;
+        height: 90%;
+        border-radius: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .main_topic {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .description {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .tittle_description {
+        width: 60%;
+        height: 20%;
+        padding-right: 2%;
+        > h1 {
+          font-family: 'Objectivity';
+          font-size: 30pt;
+          line-height: 1em;
+        }
+      }
+      .text_description {
+        width: 100%;
+        height: 15%;
+        padding-left: 15%;
+        > p {
+          font-family: 'Objectivity';
+          font-size: 12pt;
+          line-height: 1em;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .buttons {
+      width: 60%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 40% 40%;
+      grid-template-rows: 40% 40%;
+      align-items: center;
+      padding-left: 5%;
+      justify-content: center;
+
+      padding-top: 5%;
+
+      .son_button {
+        border: 1px solid black;
+        width: 88%;
+        height: 85%;
+        border-radius: 5%;
+      }
+    }
+  }
+}
