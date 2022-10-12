@@ -61,10 +61,20 @@
   .main_layout {
     width: 100%;
   }
+  .father {
+    .father_buttons {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 640px) {
   .main_layout {
     width: 100%;
+  }
+  .father {
+    .father_buttons {
+      display: none;
+    }
   }
 }
